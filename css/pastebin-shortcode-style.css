@@ -1,0 +1,39 @@
+div.embedPastebin {
+	position: relative;
+	border: 1px solid #DDD !important;
+	border-bottom: 1px solid #CCC;
+	border-radius: 3px;
+	font-family: Consolas, "Liberation Mono", Courier, monospace !important;
+	padding-bottom: 34px !important;
+	margin-bottom: 1em !important;
+}
+div.embedPastebin ol {
+	padding-left: 0;
+	font-size: 12px;
+}
+div.embedPastebin div.embedFooter {
+	font: 11px "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+	text-shadow: 1px 1px rgba(255, 255, 255, 0.8);
+	overflow: hidden;
+	color: #999;
+	padding: 10px !important;
+	background: none !important;
+	background-color: #E8E8E8 !important;
+background-image: -moz-linear-gradient(#fafafa, #e8e8e8) !important;
+background-image: -webkit-linear-gradient(#FAFAFA, #E8E8E8) !important;
+background-image: linear-gradient(#FAFAFA, #E8E8E8) !important;
+background-repeat: repeat-x !important;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 9999;
+}
+
+div.embedPastebin div.embedFooter a {
+	color: #26A!important;
+	text-decoration: none;
+}
+
+div.embedPastebin div.embedFooter a:hover {
+	color: #0E4071!important;
+}
